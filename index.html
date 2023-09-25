@@ -30,8 +30,8 @@
                     name="inputSide" 
                     id="inputSide"
                     placeholder="Ingrese los lados..">
-                <button class="box-main__btn" type="button" onclick="calcularPerimetroCuadrado()">Perímetro</button>
-                <button class="box-main__btn" type="button" onclick="calcularAreaCuadrado()">Área</button>
+                <button class="box-main__btn" type="button" id="btn_perimetro-cuadrado"">Perímetro</button>
+                <button class="box-main__btn" type="button" id="btn_area-cuadrado"">Área</button>
             </div>
         </div>
         <div class="box">
@@ -58,7 +58,7 @@
                     name="side3" 
                     id="side3"
                     placeholder="Ingrese lado tres...">
-                <button class="box-main__btn" type="button" onclick="calcularPerimetroTriangulo()">Perímetro</button>
+                <button class="box-main__btn" type="button" id="btn_perimetro-triangulo">Perímetro</button>
                 <p class="box-main__text">¿Cuanto mide la base y altura de tu triangulo?</p>
                 <input 
                     class="box-main__input" 
@@ -72,7 +72,7 @@
                     name="sideAltura" 
                     id="sideAltura"
                     placeholder="Ingrese altura...">
-                <button class="box-main__btn" type="button" onclick="calcularAreaTriangulo()">Area</button>
+                <button class="box-main__btn" type="button" id="btn_area-triangulo">Area</button>
             </div>
         </div>
         <div class="box">
@@ -87,15 +87,15 @@
                     name="sideRadio" 
                     id="sideRadio"
                     placeholder="Ingrese radio...">
-                <button class="box-main__btn" type="button" onclick="calcularDiametroCirculo()">Diametro</button>
-                <button class="box-main__btn" type="button" onclick="calcularPerimetroCirculo()">Perímetro</button>
-                <button class="box-main__btn" type="button" onclick="calcularAreaCirculo()">Área</button>
+                <button class="box-main__btn" type="button" id="btn_diametro-circulo">Diametro</button>
+                <button class="box-main__btn" type="button" id="btn_perimetro-circulo">Perímetro</button>
+                <button class="box-main__btn" type="button" id="btn_area-circulo">Área</button>
             </div>
         </div>
     </section>
     <div class="caja" id="caja1"></div>
     <div class="caja" id="caja2"></div>
 
-    <script src="./greometric.js"></script>
+    <script src="./greometric-min.js"></script>
 </body>
 </html>
